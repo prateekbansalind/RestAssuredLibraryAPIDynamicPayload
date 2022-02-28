@@ -11,21 +11,6 @@ public class Main {
 
 
 
-        ArrayList<String> names = new ArrayList<String>();
-
-        while (!(names.equals("Neha"))){
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Please enter a name: ");
-            String name = scanner.next();
-            names.add(name);
-            System.out.println(names);
-        }
-
-
-
-
-
-
 
     }
 }
